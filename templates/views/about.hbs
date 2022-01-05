@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>headerlink}}
+</head>
+<body>
+ {{>navbar}}
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+           <!-- right side div -->
+           <div class="col-md-6 col-12 main_header_right align-items-center">
+            <figure class="abt">
+              <img src="images/about.png" alt="About_Img" class="img-fluid" title="VS Code">
+            </figure>
+            </div>
+          <!-- left side div -->
+          <div class="col-md-6 col-12 main_header_left">
+            <p>Welcome to Express JS Tutorial.</p>
+            <h1>This webpage tells about weather with <span> real-time API.</span></h1>
+            <a href="https://www.youtube.com/watch?v=XGa4onZP66Q" target="_blank"><button> About API</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  {{>footer}}
+</body>
+</html>
